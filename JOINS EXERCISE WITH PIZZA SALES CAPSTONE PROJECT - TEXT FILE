@@ -1,0 +1,26 @@
+-- INNER JOIN - PIZZA_SALES AND PIZZAS
+
+-- This returns only the rows where there is a match in both tables 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- LEFT JOIN - PIZZA_SALES AND PIZZAS
+
+-- Returns all records from pizza_sales, plus matching data from pizzas. 
+-- If a sale exists 
+-- for a pizza not in the pizzas table, those columns will show as NULL. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- RIGHT JOIN - PIZZA_SALES AND PIZZAS
+
+-- Returns all records from the pizzas table, plus matching sales. 
+-- This helps you identify which pizzas have never been sold.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- CROSS JOIN - PIZZA_SALES AND PIZZAS
+
+-- This matches every single row from pizza_sales with every single row 
+-- from pizzas. 
+-- It creates a massive "grid" of all possible combinations.
